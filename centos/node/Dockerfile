@@ -5,4 +5,4 @@ RUN yum -y install wget tar
 RUN wget http://nodejs.org/dist/v0.12.0/node-v0.12.0-linux-x64.tar.gz
 RUN tar --strip-components 1 -xzvf node-v* -C /usr/local
 RUN rm -f node-v*.tar.gz
-RUN mkdir /bub
+RUN mkdir /bubba
